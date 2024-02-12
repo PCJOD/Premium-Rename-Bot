@@ -10,8 +10,8 @@ class Config(object):
     
     #premium client
     STRING = os.environ.get("STRING", "BQGiDi0ApKWE1pDgG2lQfOvtTcHnkk4zAqoL8Uqhm-65G7KyOniWjbD-ATM3uoOYgKOi48oIRjCwnSWYk3yqksUuMPOU6Bt5lAUC6KFJemokA0K6qhT7s-8nAB80PGD8yML_u_yGDMxsniUpxKJnst_Luu4l3gQbUUnidO_twW9oIC9hQRD0JXrGK2uK7lqea5K7qnYXsqT16c3no2opFhzeXnBjklr9Sxz2TrbNH_G3Bi4d8Y3W8mqgNdbWlDXfMZuLc6HTjpgs2iZG1pMsEeHCgQHctKOaKwYmARq9tyGKOcM0Y6VviKj6xUUfGgcgWYK39VozcRyjgaZz9Phh4DBrixNIkAAAAAFgOLaZAA") #⚠️ Required 
-    STRING_API_ID = os.environ.get("STRING_API_ID", "27397677") # ⚠️ Required
-    STRING_API_HASH = os.environ.get("STRING_API_HASH", "808e9452b5d8b6ca9fe7ff6f6ee60fec") # ⚠️ Required
+    STRING_API_ID = os.environ.get("STRING_API_ID", "true") # ⚠️ Required
+    STRING_API_HASH = os.environ.get("STRING_API_HASH", "true") # ⚠️ Required
    
     # database config
     DB_NAME = os.environ.get("DB_NAME","Cluster0")     
